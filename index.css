@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    color: white   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #111827;
+    height: 385px;
+    width: 575px;
+    border-radius: 0px;
+    position: relative;       
+}
+h3 {
+    height: 40px;
+    width: 150px;
+    left: 85px;
+    top: 70px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;  
+}
+
+h4 {
+    border: none;
+    background-color: #080001;
+    font-family: Cursed Timer ULiL;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #42baf1;     
+    position: absolute;  
+    margin: 0px 0px;
+}
+button{ 
+    position: relative;
+    background: #11182777;
+    width: 35px;
+    height: 35px;
+    margin-left: 8px;
+    left: 8px;
+    top: 130px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: 42baf1;
+    transition: 0.2s;
+    cursor: pointer;
+    border: 2px groove #4b5c85fa;
+}
+#incre1:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
+#incre2:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
+#incre3:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
+#incre01:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
+#incre02:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
+#incre03:hover {
+    background:#1118270e;
+    color: #f94f6e91;
+}
