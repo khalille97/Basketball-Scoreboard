@@ -4,38 +4,38 @@ console.log(countEl)
 console.log(countAl)
 
 
-let count = 0
-let countg = 0
+let countHome = 0
+let countAway = 0
 
 
 function increment1(){
-    count += 1
-    countEl.textContent=count
-    console.log(count)
+    countHome += 1
+    countEl.textContent=countHome
+    console.log(countHome)
 }
 function increment2(){
-    count += 2
-    countEl.textContent=count
-    console.log(count)
+    countHome += 2
+    countEl.textContent=countHome
+    console.log(countHome)
 }
 function increment3(){
-    count += 3
-    countEl.textContent=count
-    console.log(count)
+    countHome += 3
+    countEl.textContent=countHome
+    console.log(countHome)
 }
 function increment01(){
-    countg += 1
-    countAl.textContent=countg
-    console.log(countg)
+    countAway += 1
+    countAl.textContent=countAway
+    console.log(countAway)
 }
 function increment02(){
-    countg += 2
-    countAl.textContent=countg
-    console.log(countg)
+    countAway += 2
+    countAl.textContent=countAway
+    console.log(countAway)
 }
 function increment03(){
-    countg += 3
-    countAl.textContent=countg
-    console.log(countg)
+    countAway += 3
+    countAl.textContent=countAway
+    console.log(countAway)
 }
 
