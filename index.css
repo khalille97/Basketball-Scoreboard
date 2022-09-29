@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    color: white   
+    font-family:Cursed Timer ULiL;
+    color: white;
 }
 
 .container {
@@ -8,8 +9,8 @@ body {
     justify-content: space-around;
     align-items: stretch;
     background-color: #111827;
-    height: 385px;
-    width: 575px;
+    height: 600px;
+    width: 750px;
     border-radius: 0px;
     position: relative;       
 }
@@ -24,7 +25,9 @@ h3 {
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0em;
-    text-align: center;  
+    text-align: center;
+    font-family:Cursed Timer ULiL;
+    margin: 20px 0px;  
 }
 
 h4 {
@@ -42,6 +45,50 @@ h4 {
     color: #42baf1;     
     position: absolute;  
     margin: 0px 0px;
+}
+h4#period-count{
+    border: 2px solid rgb(8, 2, 2);
+    background: rgba(0, 0, 0, 0.74);
+    font-style: italic;
+    font-family: Cursed Timer ULiL;
+    height: 100px;
+    width: 90px;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ff0000;     
+    position: relative;  
+    margin: 0px 0px;
+
+}
+.period{
+    position: relative;
+}
+#period-inc{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    color: #ca0000;
+    background:rgba(0, 0, 0, 0.692);
+    height: 40px;
+     
+}
+#periodword{
+    font-size: 23px;
+    font-family: Cursed Timer ULiL;
+    position: absolute;
+    left: 305px;
+    top: 145px;
+}
+
+.period h3{
+    font-size: 25px;
+    font-style: oblique;
+    position: fixed;
+    left: 210px;
+    top: 150px;
+    
 }
 button{ 
     position: relative;
@@ -61,6 +108,36 @@ button{
     transition: 0.2s;
     cursor: pointer;
     border: 2px groove #4b5c85fa;
+}
+.fouls-home{
+    position: absolute;
+    top: 300px;
+}
+.fouls-home #fouls-counth{
+    width: 80px;
+    position: absolute;
+    left: 38px;
+    color: yellow;
+}
+.fouls-away #fouls-counta{
+    width: 80px;
+    position: absolute;
+    left: 38px;
+    color: yellow;
+}
+.fouls-away{
+    position: absolute;
+    top: 300px;    
+}
+.fouls-home #foul-inch{
+    left: 50;
+    top: 130px;
+    color: yellow;
+}
+.fouls-away #foul-inca{
+    left: 50;
+    top: 130px;
+    color: yellow;
 }
 #incre1:hover {
     background:#1118270e;
